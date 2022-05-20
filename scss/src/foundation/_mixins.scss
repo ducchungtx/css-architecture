@@ -9,7 +9,7 @@
  *
  */
 
- @mixin tablet {
+@mixin tablet {
   @media (min-width: map-get($breakpoints, "md")) {
     @content;
   }
@@ -26,7 +26,6 @@
     @content;
   }
 }
-
 
 @mixin padding($space) {
   padding: map-get($spacing, $space);
