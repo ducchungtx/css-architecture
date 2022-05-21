@@ -1,0 +1,6 @@
+"scripts": {
+  "build": "rollup -c",
+  "start": "rollup -c -w"
+}
+
+-c to load file configuration
