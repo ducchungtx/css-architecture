@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { Button } from '@ds.e/react';
-import '@ds.e/scss/lib/Button.css';
+import { Color } from "@ds.e/react";
 
 ReactDOM.render(
-  <Button label="Button Example" />,
+  <Color hexCode="gray" width="1rem" height="1rem" />,
   document.getElementById("root")
 )
