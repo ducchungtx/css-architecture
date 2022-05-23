@@ -14,6 +14,6 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "start": "rollup -c -w"
+    "dev": "yarn build --watch"
   }
 }
